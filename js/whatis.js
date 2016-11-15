@@ -1,0 +1,7 @@
+function more1() {
+    document.getElementById("vri").innerHTML = " Most up-to-date virtual realities are displayed either on a computer screen or with a special virtual reality headset (also called head-mounted display), and some simulations include additional sensory information and focus on real sound through speakers or headphones targeted towards VR users. Some advanced haptic systems now include tactile information, generally known as force feedback in medical, gaming and military applications. Furthermore, virtual reality covers remote communication environments which provide virtual presence of users with the concepts of telepresence and telexistence or a virtual artifact (VA) either through the use of standard input devices such as a keyboard and mouse, or through multimodal devices such as a wired glove or omnidirectional treadmills. The immersive environment can be similar to the real world in order to create a lifelike experience - for example, in simulations for pilot or combat training - or it can differ significantly from reality, such as in VR games."
+;}
+
+
+function back1() {document.getElementById("vri").innerHTML ="<span>Virtual reality or virtual realities (VR)</span>, also known as immersive multimedia or computer-simulated reality, is a computer technology that replicates an environment, real or imagined, and simulates a user's physical presence and environment to allow for user interaction. Virtual realities artificially create sensory experience, which can include sight, touch, hearing, and smell."
+;}
