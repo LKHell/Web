@@ -8,3 +8,14 @@ $(document).ready(function(){
         $("#bbutton").show();
     });
 });
+
+ $(document).ready(function(){
+     $("#toadmin").click(function(){
+       $("#admin").show();
+       
+     });
+     // $("#tojoin").click(function(){
+     //      $("#sign").hide();
+     //     $("#join").show();
+     // });
+ });

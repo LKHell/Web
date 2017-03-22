@@ -1,0 +1,22 @@
+<?php
+$servername = "localhost";
+$severusername = "root";
+$severpassword = "";
+
+// Create connection
+$conn = mysqli_connect($servername, $severusername, $severpassword);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+// sql to delete a record
+$sql = "DELETE FROM lkh_table WHERE id=3";
+
+if (mysqli_query($conn, $sql)) {
+    echo "Record deleted successfully";
+} else {
+    echo "Error deleting record: " . mysqli_error($conn);
+}
+
+mysqli_close($conn);
+?>
