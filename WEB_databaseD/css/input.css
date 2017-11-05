@@ -1,0 +1,85 @@
+.inpuut{width: 80%;
+	height: 2.8em;
+	padding:5px 5px;} 	/* style of input */
+
+input[type=submit ]{
+text-transform: uppercase;
+	text-decoration: none;
+	color: #FFF;
+	letter-spacing: 3px;
+	line-height: 2.8em;
+	border: 2px solid #3998F5;
+	display: inline-block;
+	width: 80%;
+	height: 2.8em;
+	border-radius: 4px;
+	margin: 1.5em 0 1.8em;
+	font-family: 'AmbleRegular';
+	font-size:1.2em;
+	background: #3998F5;
+}
+input[type=submit]:hover{
+/*background-color:#45a049;*/
+background: #1B8DFC;
+	border: 2px solid #1B8DFC;
+}
+input[type=submit]:active{
+background-color: #00CCFF;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+
+input[type=reset ]{
+text-transform: uppercase;
+	text-decoration: none;
+	color: #FFF;
+	letter-spacing: 3px;
+	line-height: 2.8em;
+	border: 2px solid #3998F5;
+	display: inline-block;
+	width: 80%;
+	height: 2.8em;
+	border-radius: 4px;
+	margin: 1.5em 0 1.8em;
+	font-family: 'AmbleRegular';
+	font-size:1.2em;
+	background: #3998F5;
+}
+input[type=reset]:hover{
+/*background-color:#45a049;*/
+background: #1B8DFC;
+	border: 2px solid #1B8DFC;
+}
+input[type=reset]:active{
+background-color: #00CCFF;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+#imgbutton {
+text-transform: uppercase;
+	text-decoration: none;
+	color: #FFF;
+	letter-spacing: 3px;
+	line-height: 2.8em;
+	border: 2px solid #3998F5;
+	display: inline-block;
+	width: 80%;
+	height: 2.8em;
+	border-radius: 4px;
+	margin: 1.5em 0 1.8em;
+	font-family: 'AmbleRegular';
+	font-size:1.2em;
+	background: #3998F5;
+}
+#imgbutton:hover{
+/*background-color:#45a049;*/
+background: #1B8DFC;
+	border: 2px solid #1B8DFC;
+}
+#imgbutton:active{
+background-color: #00CCFF;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
